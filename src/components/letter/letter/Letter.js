@@ -63,7 +63,6 @@ class Letter extends Component {
           onAccept={() => {
             alert("yay!");
           }}
-          debug={true}
           enableDeclineButton
           declineButtonText="Decline (optional)"
           onDecline={() => {
