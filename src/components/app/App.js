@@ -63,7 +63,7 @@ class App extends Component {
               component={ Authorship }
             />
             <Redirect from="/" to="/public/letters/last" />
-                     </Switch>
+           </Switch>
         </div>
       </Router>
     );
