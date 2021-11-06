@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CookieConsent, { Cookies } from "react-cookie-consent";
 
 import AsyncLoader from "../../async-loader/AsyncLoader";
 import LetterDate from "../letter-date/LetterDate";
@@ -56,6 +57,27 @@ class Letter extends Component {
               />
             </div>
           }
+           <div className="cookie">
+            
+            <CookieConsent
+          onAccept={() => {
+            alert("yay!");
+          }}
+          debug={true}
+          enableDeclineButton
+          declineButtonText="Decline (optional)"
+          onDecline={() => {
+            alert("Если Вы не согласны - немендленно покиньте этот сайт!");
+          }}
+        >
+          Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!{" "}
+          <span style={{ fontSize: "10px" }}>
+            This bit of text is smaller :O
+          </span>
+        </CookieConsent>
+            
+            </div>
+
         </div>
       </div>
     );

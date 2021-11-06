@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
-
+import CookieConsent, { Cookies } from "react-cookie-consent";
 import Public from "../public/Public";
 import PrivateRoute from "../private-route/PrivateRoute";
 import Login from "../login/Login";
@@ -63,7 +63,7 @@ class App extends Component {
               component={ Authorship }
             />
             <Redirect from="/" to="/public/letters/last" />
-          </Switch>
+                     </Switch>
         </div>
       </Router>
     );
