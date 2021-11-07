@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.666663d3.chunk.css",
+    "main.js": "/static/js/main.f541ab44.chunk.js",
+    "main.js.map": "/static/js/main.f541ab44.chunk.js.map",
+    "reactvendor.js": "/static/js/reactvendor.f3eab400.chunk.js",
+    "reactvendor.js.map": "/static/js/reactvendor.f3eab400.chunk.js.map",
+    "runtime.js": "/static/js/runtime.0c8c4387.js",
+    "runtime.js.map": "/static/js/runtime.0c8c4387.js.map",
+    "utilityVendor.js": "/static/js/utilityVendor.416af502.chunk.js",
+    "utilityVendor.js.map": "/static/js/utilityVendor.416af502.chunk.js.map",
+    "vendors~main.js": "/static/js/vendors~main.9aca2f7c.chunk.js",
+    "vendors~main.js.map": "/static/js/vendors~main.9aca2f7c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1c483d3ba6ff99c296ff31220a3ea4c4.js": "/precache-manifest.1c483d3ba6ff99c296ff31220a3ea4c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.666663d3.chunk.css.map": "/static/css/main.666663d3.chunk.css.map",
+    "static/js/reactvendor.f3eab400.chunk.js.LICENSE.txt": "/static/js/reactvendor.f3eab400.chunk.js.LICENSE.txt",
+    "static/js/vendors~main.9aca2f7c.chunk.js.LICENSE.txt": "/static/js/vendors~main.9aca2f7c.chunk.js.LICENSE.txt",
+    "static/media/backside-logo-max768.jpg": "/static/media/backside-logo-max768.a80fabb5.jpg",
+    "static/media/backside-logo.png": "/static/media/backside-logo.bd629c1f.png",
+    "static/media/pre-upload-img-black.svg": "/static/media/pre-upload-img-black.3f95cbbc.svg",
+    "static/media/pre-upload-img-gray.svg": "/static/media/pre-upload-img-gray.5f7be11a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime.0c8c4387.js",
+    "static/js/reactvendor.f3eab400.chunk.js",
+    "static/js/utilityVendor.416af502.chunk.js",
+    "static/js/vendors~main.9aca2f7c.chunk.js",
+    "static/css/main.666663d3.chunk.css",
+    "static/js/main.f541ab44.chunk.js"
+  ]
+}

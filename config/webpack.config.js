@@ -140,7 +140,7 @@ module.exports = function(webpackEnv) {
       : isEnvDevelopment && 'cheap-module-source-map',
     // These are the "entry points" to our application.
     // This means they will be the "root" imports that are included in JS bundle.
-    entry: path.resolve(__dirname, 'src/index.js'),
+    entry: path.resolve(__dirname, '../src/index.js'),
   /*  output: {
     path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js',
