@@ -1,6 +1,4 @@
-@import url(/node_modules//tailwindcss/base.css);
-@import url(/node_modules//tailwindcss/components.css);
-@import url(/node_modules//tailwindcss/utilities.css);
+@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
 
 body {
   margin: 0;
