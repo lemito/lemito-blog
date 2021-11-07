@@ -8,4 +8,4 @@ for (i=1;i<8;i++) {
 export const API_BASE_URL = "https://shrouded-retreat-21347.herokuapp.com";
 export const ACCESS_TOKEN = passwd;
 export const LETTERS_CONTENT_MODE = ["ALL", "PUBLIC"];
-console.log("Your accedd token is "+ passwd)
+console.log("Your access token is "+ passwd)
