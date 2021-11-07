@@ -30,7 +30,7 @@ class Letter extends Component {
           title: title,
           dateOfPublication: dateOfPublication,
           htmlText: htmlText,
-          pictureURL: API_BASE_URL + "/public/pictures/" + pictureName,
+      //    pictureURL: API_BASE_URL + "/public/pictures/" + pictureName,
           isLoading: false
         });
       });
@@ -50,11 +50,11 @@ class Letter extends Component {
               </div>
               <LetterDate date={ dateOfPublication } />
               <div className="html-text" dangerouslySetInnerHTML={ {__html: htmlText} } />
-              <img
+        {/*      <img
                 className="letter-picture"
                 src={ pictureURL }
                 alt=""
-              />
+        />    */}
             </div>
           }
            <div className="cookie">
