@@ -8,7 +8,7 @@ class AsyncLoader extends Component {
     render() {
         return(
             <div className="loader">
-                loading...
+                Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас.
             </div>
         );
     }
