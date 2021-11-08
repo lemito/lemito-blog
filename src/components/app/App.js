@@ -6,7 +6,7 @@ import Authorship from "../authorship/authorship/Authorship";
 import { checkAuth } from "../../util/api";
 import { ACCESS_TOKEN } from "../../util/const";
 import './App.css';
-const Public = React.lazy(() => import ("../public/Public"));
+import Public from "../public/Public";
 
 class App extends Component {
 
