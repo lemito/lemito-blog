@@ -195,12 +195,12 @@ module.exports = function(webpackEnv) {
             test: /[\\/]node_modules[\\/](lodash|moment|moment-timezone)[\\/]/,
             name: "utilityVendor"
           },
-          bootstrapVendor: {
+      /*    bootstrapVendor: {
             test: /[\\/]node_modules[\\/](react-bootstrap)[\\/]/,
             name: "bootstrapVendor"
-          },
+          }, */
           vendor: {
-            test: /[\\/]node_modules[\\/](!react-bootstrap)(!lodash)(!moment)(!moment-timezone)[\\/]/,
+            test: /[\\/]node_modules[\\/](!lodash)(!moment)(!moment-timezone)[\\/]/, // (!react-bootstrap)
             name: "vendor"
           },
         },
