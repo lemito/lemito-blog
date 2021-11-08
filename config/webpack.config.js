@@ -181,7 +181,7 @@ module.exports = function(webpackEnv) {
       globalObject: 'this',
     },
     optimization: {
-      runtimeChunk: 'single',
+      runtimeChunk: 'multiple',
       splitChunks: {
         chunks: 'all',
         maxInitialRequests: Infinity,
