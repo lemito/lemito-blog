@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import CookieConsent, { Cookies } from "react-cookie-consent";
-import Public from "../public/Public";
 import PrivateRoute from "../private-route/PrivateRoute";
 import Login from "../login/Login";
 import Authorship from "../authorship/authorship/Authorship";
-
 import { checkAuth } from "../../util/api";
 import { ACCESS_TOKEN } from "../../util/const";
-
 import './App.css';
-
+const Public = React.lazy(() => import ("../public/Public"));
 
 class App extends Component {
 
