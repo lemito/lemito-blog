@@ -72,7 +72,7 @@ class Letter extends Component {
         >
           Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!{" "}
           <span style={{ fontSize: "10px" }}>
-            This bit of text is smaller :O
+            Без Вашего подтверждения сайт будет грузиться БЕСКОНЕЧНО :O
           </span>
         </CookieConsent>
             
