@@ -65,6 +65,7 @@ class Letter extends Component {
           }}
           debug={false}
           enableDeclineButton
+          acceptOnScroll={true}
           declineButtonText="Decline (optional)"
           onDecline={() => {
             alert("Если Вы не согласны - немендленно покиньте этот сайт!");
