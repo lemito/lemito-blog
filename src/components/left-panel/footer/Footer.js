@@ -2,8 +2,9 @@ import React, { Component } from "react";
 
 import "./Footer.css";
 
-
 class Footer extends Component {
+
+ 
 
   render() {
 
@@ -12,7 +13,7 @@ class Footer extends Component {
     return(
       <div className="footer-div">
         <span onClick={ this.props.showAbout }>
-          { isAbout ? footerTitles[1].title : footerTitles[0].title }
+          { isAbout ? footerTitles[1].title : footerTitles[0].title } 
         </span>
       </div>
     );

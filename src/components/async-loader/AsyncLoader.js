@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 
 import "./AsyncLoader.css";
-
+import { useTranslation, withTranslation, Trans } from 'react-i18next';
 
 class AsyncLoader extends Component {
-
     render() {
         return(
             <div className="loader">
-                Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас.
+                <Trans i18nKey="loader.first">Упс... Что-то слишком долго грузит...</Trans>
                 <hr/>
-                Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу
+                <Trans i18nKey="loader.second">P.S. Перезагрузите страницу и примите правила о cookie-файлах</Trans>
             </div>
         );
     }

@@ -6,6 +6,8 @@ import GitIcon from "../../icons/git-icon/GitIcon";
 import "./About.css";
 
 
+
+
 class About extends Component {
 
   render() {
