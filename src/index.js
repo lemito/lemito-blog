@@ -17,8 +17,12 @@ var language = navigator.language || navigator.userLanguage;
 
 
 ReactDOM.render(<React.StrictMode>
-<Helmet>
+<Helmet
+titleTemplate="lemito - %s"
+defaultTitle="lemito"
+>
 <html lang={language}  />
+
 </Helmet>
      <IntlProvider locale={language} messages={messages[language]}>
         <App/>
