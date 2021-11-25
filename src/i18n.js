@@ -11,7 +11,7 @@ i18n
     lng: localStorage.getItem('language') || userLanguage || 'ru',
     fallbackLng: 'ru',
 
-    debug: true,
+    debug: false,
     keySeparator: '.',
     interpolation: {
       escapeValue: false,
