@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import IsAb from './IsAb';
-import NotAb from './NotAb';
+import loadable from '@loadable/component'
+const IsAb = loadable(() => import('./IsAb'));
+const NotAb = loadable(() => import('./NotAb'));
 
 class Footer extends Component {
   render() {
