@@ -1,5 +1,7 @@
 {
   "loader.first": "If it takes a long time to load - reload the page",
   "loader.second": "Oops ... Need to wait a bit. We have already received all the articles and are posting them for you.",
-  "about": "I am lemit"
+  "about": "I am lemit",
+  "b-about": "About me",
+  "b-close": "Close"
 }
