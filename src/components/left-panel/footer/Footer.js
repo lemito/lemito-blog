@@ -16,9 +16,5 @@ class Footer extends Component {
   }
 };
 
-/*const footerTitles = [
-  {value: "open", title: "обо мне"},
-  {value: "close", title: "закрыть"}
-];*/
 
 export default Footer;

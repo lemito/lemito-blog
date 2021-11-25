@@ -4,8 +4,6 @@ import LettersContent from "../letters-content/letters-content/LettersContent";
 import About from "../about/About";
 import Footer from "../footer/Footer";
 
-import backsideLogo from "../../../resources/backside-logo.png";
-import backsideLogoMax768 from "../../../resources/backside-logo-max768.jpg"
 
 import "./LeftPanel.css";
 
