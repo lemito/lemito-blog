@@ -24,7 +24,6 @@ const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpackPlugin');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
-const LoadablePlugin = require('@loadable/webpack-plugin')
 
 const postcssNormalize = require('postcss-normalize');
 
@@ -323,7 +322,6 @@ module.exports = function(webpackEnv) {
         // please link the files into your node_modules/ and let module-resolution kick in.
         // Make sure your source files are compiled, as they will not be processed in any way.
         new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
-        new LoadablePlugin({ filename: 'stats.json', writeToDisk: true })
 
       ],
     },
