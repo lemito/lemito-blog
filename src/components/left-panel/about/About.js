@@ -4,6 +4,7 @@ import TelegramIcon from "../../icons/telegram-icon/TelegramIcon";
 import GitIcon from "../../icons/git-icon/GitIcon";
 
 import "./About.css";
+import {FormattedMessage} from 'react-intl';
 
 
 
@@ -14,7 +15,7 @@ class About extends Component {
     return(
       <div className="about-div animated">
         <div className="inner-html">
-          <p>{ about }</p>
+         <p><FormattedMessage id='about' defaultMessage='Я - lemit' description="Я - lemit" /></p>
         </div>
         <div className="contacts-div">
           <div className="contact-div">
@@ -35,7 +36,5 @@ class About extends Component {
   }
 }
 
-const about = 
-  `I am lemito.`;
 
 export default About;
