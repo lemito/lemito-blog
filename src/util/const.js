@@ -1,3 +1,4 @@
+console.clear()
 var i
 var passwd = '';
 var chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-__-';
@@ -9,3 +10,5 @@ export const API_BASE_URL = "https://shrouded-retreat-21347.herokuapp.com";
 export const ACCESS_TOKEN = passwd;
 export const LETTERS_CONTENT_MODE = ["ALL", "PUBLIC"];
 console.log("Your access token is "+ passwd)
+const language = navigator.language || navigator.userLanguage || 'en'; 
+console.log("Now your lang is "+ language)

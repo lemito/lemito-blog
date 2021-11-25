@@ -1,15 +1,24 @@
 import React, { Component } from "react";
+import {FormattedMessage } from 'react-intl';
+import {FormattedHTMLMessage} from 'react-intl';
 
 import "./AsyncLoader.css";
-import { useTranslation, withTranslation, Trans } from 'react-i18next';
+
+
 
 class AsyncLoader extends Component {
     render() {
+
         return(
             <div className="loader">
-                <Trans i18nKey="loader.first">Упс... Что-то слишком долго грузит...</Trans>
+<FormattedMessage id="loader.first"
+                      defaultMessage="Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу"
+                      description="Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу"
+                     />
                 <hr/>
-                <Trans i18nKey="loader.second">P.S. Перезагрузите страницу и примите правила о cookie-файлах</Trans>
+<FormattedMessage id="loader.second"
+                      defaultMessage="Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас."
+                      description="Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас."/>
             </div>
         );
     }

@@ -1,22 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import {IntlProvider} from "react-intl";
 import './index.css';
 import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
-import {I18nextProvider} from "react-i18next";
-import i18next from "i18next";
+import messages_ru from "./locales/ru.json";
+import messages_en from "./locales/en.json";
 
-// настройки плагина
-import './i18n';
+const messages = {
+    'ru': messages_ru,
+    'en': messages_en
+};
+var language = navigator.language || navigator.userLanguage; 
 
-i18next.init({
-    interpolation: { escapeValue: false },  // React already does escaping
-});
+
 ReactDOM.render(<React.StrictMode>
-    <I18nextProvider i18n={i18next}>
+     <IntlProvider locale={language} messages={messages[language]}>
         <App/>
-    </I18nextProvider>
+    </IntlProvider>
 </React.StrictMode>, document.getElementById('root'));
 
 
