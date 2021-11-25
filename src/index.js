@@ -22,3 +22,5 @@ ReactDOM.render(<React.StrictMode>
 
 
 serviceWorker.unregister();
+
+/* Tip: For translation you can use BabelEdit */
