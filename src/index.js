@@ -6,7 +6,7 @@ import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
 import messages_ru from "./locales/ru.json";
 import messages_en from "./locales/en.json";
-
+// TODO: Chinese translation
 const messages = {
     'ru': messages_ru,
     'en': messages_en
