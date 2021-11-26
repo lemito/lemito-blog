@@ -12,7 +12,7 @@ const messages = {
     'ru': messages_ru,
     'en': messages_en
 };
-var a=window.navigator?window.navigator.language||window.navigator.systemLanguage||window.navigator.g:"ru";a=a.substr(0,2).toLowerCase();console.log(a);
+var a=window.navigator?window.navigator.language||window.navigator.systemLanguage||window.navigator.g:"en";a=a.substr(0,2).toLowerCase();console.log(a);
 ReactDOM.render(
     <HelmetProvider>
 <React.StrictMode>    
