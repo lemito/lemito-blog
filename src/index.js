@@ -13,18 +13,17 @@ const messages = {
     'ru': messages_ru,
     'en': messages_en
 };
-var language = navigator.language || navigator.userLanguage; 
 
-
+var a=window.navigator?window.navigator.language||window.navigator.systemLanguage||window.navigator.g:"ru";a=a.substr(0,2).toLowerCase();alert(a);console.log(a);
 ReactDOM.render(<React.StrictMode>
 <Helmet
 titleTemplate="lemito - %s"
 defaultTitle="lemito"
 >
-<html lang={language}  />
+<html lang={a}  />
 
 </Helmet>
-     <IntlProvider locale={language} messages={messages[language]}>
+     <IntlProvider locale={a} messages={messages[a]}>
         <App/>
     </IntlProvider>
 </React.StrictMode>, document.getElementById('root'));
