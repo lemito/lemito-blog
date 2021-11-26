@@ -3,5 +3,10 @@
   "loader.second": "Oops ... Need to wait a bit. We have already received all the articles and are posting them for you.",
   "about": "I am lemit",
   "b-about": "About me",
-  "b-close": "Close"
+  "b-close": "Close",
+  "cookie": {
+    "egg": "Without your confirmation, the site will load INFINITE: O",
+    "first": "My site uses cookies to improve the quality. \nIf you disagree - leave this site immediately!",
+    "onDecline": "If you disagree - leave this site immediately!"
+  }
 }

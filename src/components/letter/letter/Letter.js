@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CookieConsent, { Cookies } from "react-cookie-consent";
-
+import {FormattedMessage } from 'react-intl';
 import AsyncLoader from "../../async-loader/AsyncLoader";
 import LetterDate from "../letter-date/LetterDate";
 
@@ -37,7 +37,7 @@ class Letter extends Component {
   }
 
   render() {
-    
+
     const { title, dateOfPublication, htmlText, pictureURL, isLoading } = this.state;
     
     return(
@@ -68,12 +68,13 @@ class Letter extends Component {
           acceptOnScroll={true}
           declineButtonText="Decline (optional)"
           onDecline={() => {
-            alert("Если Вы не согласны - немендленно покиньте этот сайт!");
+            alert(<FormattedMessage id="cookie.onDecline" defaultMessage="Если Вы не согласны - немендленно покиньте этот сайт!" default="Текст того, что вылезает если не согласиться с куки" />); // "Если Вы не согласны - немендленно покиньте этот сайт!"
           }}
         >
-          Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!{" "}
+          <FormattedMessage id="cookie.first" defaultMessage="Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!" description="Сообщение банера куки" /> {" "}
           <span style={{ fontSize: "10px" }}>
-            Без Вашего подтверждения сайт будет грузиться БЕСКОНЕЧНО :O
+          <FormattedMessage id="cookie.egg" defaultMessage="Без Вашего подтверждения сайт будет грузиться БЕСКОНЕЧНО :O" description="Какая-то паскахлка. Зачем - не ясно." />
+          {/* TODO: А нужна ли пасхалка? */}
           </span>
         </CookieConsent>
             
