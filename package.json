@@ -85,7 +85,9 @@
     "test": "node scripts/test.js",
     "extract:messages": "react-intl-cra './src/**/*.js' -o 'output/messages.json'",
     "extract:pot": "react-intl-po json2pot ./output/messages.json -c 'id' -o ./output/messages.po",
-    "extract:po": "react-intl-po po2json input/*.po -c 'id' -m output/messages.json -o output/translation.json"
+    "extract:po": "react-intl-po po2json input/*.po -c 'id' -m output/messages.json -o output/translation.json",
+    "predeploy": "tsc",
+    "deploy": "git push"
   },
   "eslintConfig": {
     "extends": "react-app"

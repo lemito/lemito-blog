@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-
-import LeftPanel from "../left-panel/left-panel/LeftPanel";
+import loadable from '@loadable/component'
+//import LeftPanel from "../left-panel/left-panel/LeftPanel";
 import Letter from "../letter/letter/Letter";
-
+const LeftPanel = loadable(() => import('../left-panel/left-panel/LeftPanel'));
 import { LETTERS_CONTENT_MODE } from "../../util/const";
 
 
