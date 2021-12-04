@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-11-26T16:28:04.167Z\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"X-Generator: react-intl-po\n"
+
+
+#: ./output/messages.json
+#. [cookie.egg] - Какая-то паскахлка. Зачем - не ясно.
+#. defaultMessage is:
+#. Без Вашего подтверждения сайт будет грузиться БЕСКОНЕЧНО :O
+msgctxt "'id'"
+msgid "Без Вашего подтверждения сайт будет грузиться БЕСКОНЕЧНО :O"
+msgstr ""
+
+#: ./output/messages.json
+#. [cookie.onDecline]
+#. defaultMessage is:
+#. Если Вы не согласны - немендленно покиньте этот сайт!
+msgctxt "'id'"
+msgid "Если Вы не согласны - немендленно покиньте этот сайт!"
+msgstr ""
+
+#: ./output/messages.json
+#. [loader.first] - Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу
+#. defaultMessage is:
+#. Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу
+msgctxt "'id'"
+msgid "Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу"
+msgstr ""
+
+#: ./output/messages.json
+#. [b-close] - закрыть
+#. defaultMessage is:
+#. Закрыть
+msgctxt "'id'"
+msgid "Закрыть"
+msgstr ""
+
+#: ./output/messages.json
+#. [cookie.first] - Сообщение банера куки
+#. defaultMessage is:
+#. Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!
+msgctxt "'id'"
+msgid "Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!"
+msgstr ""
+
+#: ./output/messages.json
+#. [b-about] - обо мне
+#. defaultMessage is:
+#. Обо мне
+msgctxt "'id'"
+msgid "Обо мне"
+msgstr ""
+
+#: ./output/messages.json
+#. [loader.second] - Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас.
+#. defaultMessage is:
+#. Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас.
+msgctxt "'id'"
+msgid "Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас."
+msgstr ""
+
+#: ./output/messages.json
+#. [about] - Я - lemit
+#. defaultMessage is:
+#. Я - lemit
+msgctxt "'id'"
+msgid "Я - lemit"
+msgstr ""

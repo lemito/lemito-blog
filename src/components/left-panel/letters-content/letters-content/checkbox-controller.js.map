@@ -1,0 +1,1 @@
+{"version":3,"file":"checkbox-controller.js","sourceRoot":"","sources":["checkbox-controller.ts"],"names":[],"mappings":";;;AAAA,SAAgB,iBAAiB;IAC/B,IAAM,mBAAmB,GAAG,QAAQ,CAAC,cAAc,CAAC,cAAc,CAAC,CAAC;IACpE,IAAG,mBAAmB,CAAC,OAAO;QAC5B,mBAAmB,CAAC,OAAO,GAAG,KAAK,CAAC;AACxC,CAAC;AAJD,8CAIC"}

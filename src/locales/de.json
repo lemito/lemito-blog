@@ -1,0 +1,14 @@
+{
+  "about": "ich bin gelassen",
+  "b-about": "Über mich",
+  "b-close": "Nah dran",
+  "cookie": {
+    "egg": "Ohne Ihre Bestätigung wird die Site INFINITE geladen: O",
+    "first": "Meine Website verwendet Cookies, um die Qualität zu verbessern. \nWenn Sie nicht einverstanden sind - verlassen Sie diese Seite sofort!",
+    "onDecline": "Wenn Sie nicht einverstanden sind - verlassen Sie diese Seite sofort!"
+  },
+  "loader": {
+    "first": "Wenn das Laden zu lange dauert - WIEDERHERSTELLEN der Seite",
+    "second": "Hoppla ... Muss ein bisschen warten. \nWir haben bereits alle Artikel erhalten und stellen sie für Sie bereit."
+  }
+}

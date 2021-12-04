@@ -1,0 +1,49 @@
+[
+  {
+    "id": "loader.first",
+    "description": "Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу",
+    "defaultMessage": "Если загрузка происходит долго - ПЕРЕЗАГРУЗИТЕ страницу",
+    "filepath": "./src/components/async-loader/AsyncLoader.js"
+  },
+  {
+    "id": "loader.second",
+    "description": "Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас.",
+    "defaultMessage": "Упс... Требуется немного подождать. Мы уже получили все статьи и выставляем их для Вас.",
+    "filepath": "./src/components/async-loader/AsyncLoader.js"
+  },
+  {
+    "id": "about",
+    "description": "Я - lemit",
+    "defaultMessage": "Я - lemit",
+    "filepath": "./src/components/left-panel/about/About.js"
+  },
+  {
+    "id": "b-about",
+    "description": "обо мне",
+    "defaultMessage": "Обо мне",
+    "filepath": "./src/components/left-panel/footer/IsAb.js"
+  },
+  {
+    "id": "b-close",
+    "description": "закрыть",
+    "defaultMessage": "Закрыть",
+    "filepath": "./src/components/left-panel/footer/NotAb.js"
+  },
+  {
+    "id": "cookie.onDecline",
+    "defaultMessage": "Если Вы не согласны - немендленно покиньте этот сайт!",
+    "filepath": "./src/components/letter/letter/Letter.js"
+  },
+  {
+    "id": "cookie.first",
+    "description": "Сообщение банера куки",
+    "defaultMessage": "Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!",
+    "filepath": "./src/components/letter/letter/Letter.js"
+  },
+  {
+    "id": "cookie.egg",
+    "description": "Какая-то паскахлка. Зачем - не ясно.",
+    "defaultMessage": "Без Вашего подтверждения сайт будет грузиться БЕСКОНЕЧНО :O",
+    "filepath": "./src/components/letter/letter/Letter.js"
+  }
+]

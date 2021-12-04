@@ -1,67 +1,94 @@
-import React, { Component } from "react";
-
-import LettersContent from "../letters-content/letters-content/LettersContent";
-import About from "../about/About";
-import Footer from "../footer/Footer";
-
-
-import "./LeftPanel.css";
-
-
-class LeftPanel extends Component {
-
-  refToContentsUpdate = React.createRef();
-
-  state = {
-    isAbout: false,
-    contentsState: null
-  }
-
-  showAbout = () => {
-    this.setState(prevState => ({
-      isAbout: !prevState.isAbout
-    }));
-    window.scroll(0, 0);
-  }
-
-  beforeLettersContentsUnMount = (contentsState) => {
-    this.setState({
-      contentsState: contentsState
-    });
-  }
-
-  updateContents = () => {
-    this.refToContentsUpdate.current.updateContents();
-  }
-
-  render() {
-
-    const { isAbout, contentsState } = this.state;
-    
-    return(
-      <div className="background-left-div">
-        <div className="left-panel-div">
-          {/*  <div className="logo-container-div">
-            <picture>
-              <source media="(max-width: 768px)" srcSet={ backsideLogoMax768 } />
-              <img className="backside-logo" src={ backsideLogo } alt="" />
-            </picture>
-          </div> */}
-          { isAbout ? 
-            <About /> 
-            : 
-            <LettersContent 
-              { ...this.props }
-              contentsState = { contentsState }
-              beforeLettersContentsUnMount={ this.beforeLettersContentsUnMount }
-              ref={ this.refToContentsUpdate }
-            />
-          }
-          <Footer showAbout={ this.showAbout } isAbout={ isAbout } />
-        </div>
-      </div>
-    );
-  }
-}
-
-export default LeftPanel;
+"use strict";
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+exports.__esModule = true;
+var react_1 = __importStar(require("react"));
+var LettersContent_1 = __importDefault(require("../letters-content/letters-content/LettersContent"));
+var About_1 = __importDefault(require("../about/About"));
+var Footer_1 = __importDefault(require("../footer/Footer"));
+require("./LeftPanel.css");
+var LeftPanel = /** @class */ (function (_super) {
+    __extends(LeftPanel, _super);
+    function LeftPanel() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.refToContentsUpdate = react_1["default"].createRef();
+        _this.state = {
+            isAbout: false,
+            contentsState: null
+        };
+        _this.showAbout = function () {
+            _this.setState(function (prevState) { return ({
+                isAbout: !prevState.isAbout
+            }); });
+            window.scroll(0, 0);
+        };
+        _this.beforeLettersContentsUnMount = function (contentsState) {
+            _this.setState({
+                contentsState: contentsState
+            });
+        };
+        _this.updateContents = function () {
+            _this.refToContentsUpdate.current.updateContents();
+        };
+        return _this;
+    }
+    LeftPanel.prototype.render = function () {
+        var _a = this.state, isAbout = _a.isAbout, contentsState = _a.contentsState;
+        return (react_1["default"].createElement("div", { className: "background-left-div" },
+            react_1["default"].createElement("div", { className: "left-panel-div" },
+                isAbout ?
+                    react_1["default"].createElement(About_1["default"], null)
+                    :
+                        react_1["default"].createElement(LettersContent_1["default"], __assign({}, this.props, { contentsState: contentsState, beforeLettersContentsUnMount: this.beforeLettersContentsUnMount, ref: this.refToContentsUpdate })),
+                react_1["default"].createElement(Footer_1["default"], { showAbout: this.showAbout, isAbout: isAbout }))));
+    };
+    return LeftPanel;
+}(react_1.Component));
+exports["default"] = LeftPanel;
+//# sourceMappingURL=LeftPanel.js.map
