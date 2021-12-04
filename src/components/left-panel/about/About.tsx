@@ -13,7 +13,7 @@ class About extends Component {
   render() {
     return(
       <div className="about-div animated">
-        <div className={ about }>
+        <div className={ about("html") }>
          <p ><FormattedMessage id='about' defaultMessage='Я - lemit' description="Я - lemit" /></p>
         </div>
         <div className="contacts-div">
