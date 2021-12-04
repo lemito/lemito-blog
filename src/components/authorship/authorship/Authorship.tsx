@@ -28,11 +28,11 @@ class Authorship extends Component {
           mode={ LETTERS_CONTENT_MODE[0] }
           ref={ this.refToContentsUpdate }
         />
-        <Route 
+     {/*   <Route 
           path={ match.path } 
           component={ (props) => 
-            <LetterTemplate { ...props } { ...this.props } cellContentsUpdate={ this.updateContents } /> } 
-        />
+           <LetterTemplate { ...props } { ...this.props } cellContentsUpdate={ this.updateContents } /> } 
+          /> */}
       </div>
     );
   }
