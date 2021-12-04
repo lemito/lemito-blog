@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import Dropdown from 'react-dropdown';
 import LetterDate from '../../letter/letter-date/LetterDate';
 import ImgUploader from '../img-uploader/ImgUploader.js'
@@ -76,7 +76,7 @@ class LetterTemplate extends Component {
       letter.pictureName = string;
     } else if(id !== null && picture === null) {
       letter.pictureName = pictureName;
-    }*/
+    }
     
     saveLetter(letter)
       .then(response => {
@@ -229,4 +229,5 @@ const PopUpBeforeDeleting = ({ ...props }) => {
   );
 };
 
-export default LetterTemplate;
+export default LetterTemplate; 
+*/

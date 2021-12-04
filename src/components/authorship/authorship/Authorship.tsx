@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
 import LeftPanel from "../../left-panel/left-panel/LeftPanel";
@@ -12,9 +12,9 @@ class Authorship extends Component {
 	public match: any;
   refToContentsUpdate = React.createRef();
 
-  /*updateContents = () => {
+  updateContents = () => {
     this.refToContentsUpdate.current.updateContents();
-  }*/
+  }
 
   render() {
 
@@ -28,14 +28,14 @@ class Authorship extends Component {
           mode={ LETTERS_CONTENT_MODE[0] }
           ref={ this.refToContentsUpdate }
         />
-     {/*   <Route 
+     {/  <Route 
           path={ match.path } 
           component={ (props) => 
            <LetterTemplate { ...props } { ...this.props } cellContentsUpdate={ this.updateContents } /> } 
-          /> */}
+          /> }
       </div>
     );
   }
 }
 
-export default Authorship;
+export default Authorship;*/
