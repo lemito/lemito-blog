@@ -71,12 +71,12 @@ class LetterTemplate extends Component {
       state: letterState.value
     };
 
-    if(id === null || picture !== null) {
+    /*if(id === null || picture !== null) {
       const fileName = await this.savePicture();
-      letter.pictureName = fileName;
+      letter.pictureName = string;
     } else if(id !== null && picture === null) {
       letter.pictureName = pictureName;
-    }
+    }*/
     
     saveLetter(letter)
       .then(response => {
@@ -173,7 +173,7 @@ class LetterTemplate extends Component {
             <textarea
               id="textarea-input"
               className="input-authorship-field"
-              type="text"
+     
               value={ htmlText }
               onChange={ this.handleHtmlTextChange }
             />

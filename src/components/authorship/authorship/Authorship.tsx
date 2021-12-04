@@ -12,9 +12,9 @@ class Authorship extends Component {
 	public match: any;
   refToContentsUpdate = React.createRef();
 
-  updateContents = () => {
+  /*updateContents = () => {
     this.refToContentsUpdate.current.updateContents();
-  }
+  }*/
 
   render() {
 

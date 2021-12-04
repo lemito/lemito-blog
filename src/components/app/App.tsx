@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import PrivateRoute from "../private-route/PrivateRoute";
 import Login from "../login/Login";
 
-import Authorship from "../authorship/authorship/Authorship";
+//import Authorship from "../authorship/authorship/Authorship";
 import { checkAuth } from "../../util/api";
 import { ACCESS_TOKEN } from "../../util/const";
 import './App.css';
@@ -53,15 +53,15 @@ class App extends Component {
       <Router>
         <div>
           <Switch>
-            <Route exect path={ `/public/letters/:id` } component={ Public } />
+            <Route path={ `/public/letters/:id` } component={ Public } />
            { /* <Route path="/login" component={ (props) => <Login onLogIn={ this.handleLogIn } { ...props } /> } /> */}
 
-            <PrivateRoute 
+         {/*   <PrivateRoute 
               authenticated={ this.state.isAuthenticated } 
               onLogOut= { this.handleLogOut }
               path="/authorship/letters/:id" 
-              component={ Authorship }
-            />
+         component={ Authorship } 
+            /> */}
             <Redirect from="/" to="/public/letters/last" />
            </Switch>
         </div>
