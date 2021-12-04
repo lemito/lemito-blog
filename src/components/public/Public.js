@@ -14,6 +14,17 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
@@ -38,21 +49,23 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 exports.__esModule = true;
 var react_1 = __importStar(require("react"));
-require("./Footer.css");
+var react_router_dom_1 = require("react-router-dom");
 var component_1 = __importDefault(require("@loadable/component"));
-var IsAb = (0, component_1["default"])(function () { return Promise.resolve().then(function () { return __importStar(require('./IsAb')); }); });
-var NotAb = (0, component_1["default"])(function () { return Promise.resolve().then(function () { return __importStar(require('./NotAb')); }); });
-var Footer = /** @class */ (function (_super) {
-    __extends(Footer, _super);
-    function Footer() {
+//import LeftPanel from "../left-panel/left-panel/LeftPanel";
+var Letter_1 = __importDefault(require("../letter/letter/Letter"));
+var LeftPanel = (0, component_1["default"])(function () { return Promise.resolve().then(function () { return __importStar(require('../left-panel/left-panel/LeftPanel')); }); });
+var const_1 = require("../../util/const");
+var Public = /** @class */ (function (_super) {
+    __extends(Public, _super);
+    function Public() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Footer.prototype.render = function () {
-        var isAbout = this.props.isAbout;
-        return (react_1["default"].createElement("div", { className: "footer-div" },
-            react_1["default"].createElement("span", { onClick: this.props.showAbout }, isAbout ? react_1["default"].createElement(NotAb, null) : react_1["default"].createElement(IsAb, null))));
+    Public.prototype.render = function () {
+        var match = this.props.match;
+        return (react_1["default"].createElement("div", { className: "public-div" },
+            react_1["default"].createElement(LeftPanel, __assign({}, this.props, { path: "/public/letters", mode: const_1.LETTERS_CONTENT_MODE[1] })),
+            react_1["default"].createElement(react_router_dom_1.Route, { path: match.path, component: function (props) { return react_1["default"].createElement(Letter_1["default"], __assign({}, props)); } })));
     };
-    return Footer;
+    return Public;
 }(react_1.Component));
-;
-exports["default"] = Footer;
+exports["default"] = Public;

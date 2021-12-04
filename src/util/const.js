@@ -12,4 +12,3 @@ exports.LETTERS_CONTENT_MODE = ["ALL", "PUBLIC"];
 /*console.log("Your access token is "+ passwd)
 const language = navigator.language || navigator.userLanguage || 'en';
 console.log("Now your lang is "+ language)*/ 
-//# sourceMappingURL=const.js.map

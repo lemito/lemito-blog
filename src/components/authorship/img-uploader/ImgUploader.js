@@ -114,4 +114,3 @@ var ImgUploader = /** @class */ (function (_super) {
     return ImgUploader;
 }(react_1.Component));
 exports["default"] = ImgUploader;
-//# sourceMappingURL=ImgUploader.js.map

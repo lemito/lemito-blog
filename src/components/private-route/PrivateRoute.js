@@ -72,4 +72,3 @@ var PrivateRoute = /** @class */ (function (_super) {
     return PrivateRoute;
 }(react_1.Component));
 exports["default"] = PrivateRoute;
-//# sourceMappingURL=PrivateRoute.js.map

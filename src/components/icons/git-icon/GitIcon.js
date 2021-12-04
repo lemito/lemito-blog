@@ -48,4 +48,3 @@ var GitIcon = /** @class */ (function (_super) {
     return GitIcon;
 }(react_1.Component));
 exports["default"] = GitIcon;
-//# sourceMappingURL=GitIcon.js.map

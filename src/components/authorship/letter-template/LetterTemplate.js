@@ -272,4 +272,3 @@ var PopUpBeforeDeleting = function (_a) {
             react_1["default"].createElement("button", { className: "choice-button", onClick: props.showPopUp }, "\u043D\u0435\u0442"))));
 };
 exports["default"] = LetterTemplate;
-//# sourceMappingURL=LetterTemplate.js.map

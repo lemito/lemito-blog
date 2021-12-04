@@ -63,4 +63,3 @@ var UploadPictureIcon = /** @class */ (function (_super) {
     return UploadPictureIcon;
 }(react_1.Component));
 exports["default"] = UploadPictureIcon;
-//# sourceMappingURL=UploadPictureIcon.js.map

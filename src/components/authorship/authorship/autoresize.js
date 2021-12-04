@@ -7,4 +7,3 @@ function autoresize(elementId) {
     textarea.style.height = (-8 + textarea.scrollHeight) + "px";
 }
 exports.autoresize = autoresize;
-//# sourceMappingURL=autoresize.js.map

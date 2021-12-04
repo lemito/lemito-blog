@@ -27,4 +27,3 @@ i18next_1["default"]
     }
 });
 exports["default"] = i18next_1["default"];
-//# sourceMappingURL=i18n.js.map

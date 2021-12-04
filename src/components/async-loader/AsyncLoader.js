@@ -53,4 +53,3 @@ var AsyncLoader = /** @class */ (function (_super) {
     return AsyncLoader;
 }(react_1.Component));
 exports["default"] = AsyncLoader;
-//# sourceMappingURL=AsyncLoader.js.map

@@ -54,4 +54,3 @@ var GarbageIcon = /** @class */ (function (_super) {
     return GarbageIcon;
 }(react_1.Component));
 exports["default"] = GarbageIcon;
-//# sourceMappingURL=GarbageIcon.js.map

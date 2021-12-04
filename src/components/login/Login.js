@@ -90,4 +90,3 @@ var Login = /** @class */ (function (_super) {
 }(react_1.Component));
 var warning = "Если Вы не знаете, куда попали, прошу, покиньте эту территорию, ведь Вы не отыщите здесь того, чего хотите.";
 exports["default"] = Login;
-//# sourceMappingURL=Login.js.map

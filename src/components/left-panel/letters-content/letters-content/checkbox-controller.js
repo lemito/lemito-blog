@@ -7,4 +7,3 @@ function uncheckTogleInput() {
         toggleInputCheckbox.checked = false;
 }
 exports.uncheckTogleInput = uncheckTogleInput;
-//# sourceMappingURL=checkbox-controller.js.map

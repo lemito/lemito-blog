@@ -91,4 +91,3 @@ var LeftPanel = /** @class */ (function (_super) {
     return LeftPanel;
 }(react_1.Component));
 exports["default"] = LeftPanel;
-//# sourceMappingURL=LeftPanel.js.map

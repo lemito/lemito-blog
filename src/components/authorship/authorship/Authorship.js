@@ -75,4 +75,3 @@ var Authorship = /** @class */ (function (_super) {
     return Authorship;
 }(react_1.Component));
 exports["default"] = Authorship;
-//# sourceMappingURL=Authorship.js.map

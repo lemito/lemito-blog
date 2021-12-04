@@ -67,4 +67,3 @@ var About = /** @class */ (function (_super) {
     return About;
 }(react_1.Component));
 exports["default"] = About;
-//# sourceMappingURL=About.js.map

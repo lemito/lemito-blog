@@ -136,4 +136,3 @@ var App = /** @class */ (function (_super) {
     return App;
 }(react_1.Component));
 exports["default"] = App;
-//# sourceMappingURL=App.js.map

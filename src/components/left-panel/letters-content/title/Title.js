@@ -56,4 +56,3 @@ var Title = /** @class */ (function (_super) {
     return Title;
 }(react_1.Component));
 exports["default"] = Title;
-//# sourceMappingURL=Title.js.map

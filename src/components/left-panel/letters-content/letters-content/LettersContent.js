@@ -220,4 +220,3 @@ var LettersContent = /** @class */ (function (_super) {
     return LettersContent;
 }(react_1.Component));
 exports["default"] = LettersContent;
-//# sourceMappingURL=LettersContent.js.map

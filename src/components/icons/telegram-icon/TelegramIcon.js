@@ -48,4 +48,3 @@ var TelegramIcon = /** @class */ (function (_super) {
     return TelegramIcon;
 }(react_1.Component));
 exports["default"] = TelegramIcon;
-//# sourceMappingURL=TelegramIcon.js.map
