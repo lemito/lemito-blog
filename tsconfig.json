@@ -1,15 +1,27 @@
 {
   "compilerOptions": {
+"target": "es2020",
+	"allowJs": true,
+    "skipLibCheck": true,
     "module": "commonjs",
-    "sourceMap": true,
+    "sourceMap": false,
     "jsx": "react",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": false,
     "declaration": true,
     "emitDeclarationOnly": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+"types": [ "node" ],
+"outDir": "./dist",
+"noImplicitAny": false
+
   },
+  "include": [
+    "./src"
+  ],
   "exclude": [
-    "node_modules"
+    "node_modules", "dist"
   ]
 }

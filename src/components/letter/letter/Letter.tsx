@@ -76,7 +76,7 @@ class Letter extends Component {
           acceptOnScroll={true}
           declineButtonText="Decline (optional)"
           onDecline={() => {
-            alert(<FormattedMessage id="cookie.onDecline" defaultMessage="Если Вы не согласны - немендленно покиньте этот сайт!" default="Текст того, что вылезает если не согласиться с куки" />); // "Если Вы не согласны - немендленно покиньте этот сайт!"
+            alert(<FormattedMessage id="cookie.onDecline" defaultMessage="Если Вы не согласны - немендленно покиньте этот сайт!" description="Текст того, что вылезает если не согласиться с куки" />); // "Если Вы не согласны - немендленно покиньте этот сайт!"
           }}
         >
           <FormattedMessage id="cookie.first" defaultMessage="Мой сайт использует для улучшения качества файлы куки. Если Вы не согласны - немендленно покиньте этот сайт!" description="Сообщение банера куки" /> {" "}

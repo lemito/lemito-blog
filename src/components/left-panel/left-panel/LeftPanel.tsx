@@ -13,7 +13,7 @@ class LeftPanel extends Component {
 	public props: any;
 	public isAbout: any;
 	public contentsState: any;
-  refToContentsUpdate = React.createRef();
+  refToContentsUpdate: any = React.createRef();
 
   state = {
     isAbout: false,
