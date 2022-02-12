@@ -76,7 +76,7 @@
     "semver": "6.3.0",
     "tailwind": "^4.0.0",
     "terser": "4.6.3",
-    "terser-webpack-plugin": "2.3.4",
+    "terser-webpack-plugin": "^5.3.1",
     "ts-pnp": "1.1.5",
     "url-loader": "2.3.0",
     "vue": "^2.6.14",
